@@ -5,14 +5,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My Product</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+  <!-- Header Part -->
+
+  <header class="site-header header">
+    <div class="container">
+      <div class="header__inner row middle between">
+        <a href="#" class="header__logolink">
+          <img src="images/logo.svg" alt="logo" id="darkLogo" class="header__logo">
+          <img src="images/logo-light.svg" alt="logo" id="lightLogo" class="header__logo-light">
+        </a>
+        <div id="headerMenu" class="header__menu row middle">
+          <nav class="header__nav nav">
+            <ul class="nav__list row middle">
+              <li class="nav__item"><a href="#" class="nav__link">product</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">customers</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">pricing</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">resources</a></li>
+            </ul>
+          </nav>
+          <div class="header__btns row middle">
+            <button class="header__sign btn">Sign In</button>
+            <button class="header__sign btn">Sign Up</button>
+          </div>
+          <button id="darkLight" class="dark-light"><img src="images/dark-light.svg" alt="dark-light"></button>
+          
+        </div>
+        <button id="menuBtn" class="burger"><i class='bx bx-menu' ></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Part -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner row middle between">
+        <div class="hero__content">
+          <h2 class="hero__title">Work at the speed of thought</h2>
+          <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+          <div class="hero__btns row">
+            <button class="hero__btn btn">Get started</button>
+            <button class="hero__btn btn row middle"><i class='bx bx-play'></i> Watch the Video</button>
+          </div>
+        </div>
+        <div class="hero__imgbox">
+          <img src="images/hero-img.svg" alt="hero-img" class="hero__img">
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="js/main.js"></script>
 </body>
 
